@@ -1,0 +1,30 @@
+{
+  "name": "smart-kitchen-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.13.5",
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.2.2",
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "framer-motion": "^12.34.2",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^0.574.0",
+    "mongoose": "^8.22.1",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^3.3.2",
+    "react-icons": "^5.5.0",
+    "twilio": "^5.12.1"
+  },
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
