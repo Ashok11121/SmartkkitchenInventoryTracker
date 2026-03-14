@@ -10,7 +10,7 @@ require('dotenv').config();
 // Models
 const Item = require('./models/Item');
 const User = require('./models/User');
-const Product = require('./models/Product');
+const Product = require('./models/product');
 const startScheduler = require('./services/smsScheduler');
 
 const app = express();
