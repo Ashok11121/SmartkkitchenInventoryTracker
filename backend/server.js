@@ -23,7 +23,7 @@ app.use(compression()); // Use compression
 // --- ROUTES ---
 try {
   const itemRoutes = require('./routes/itemRoutes');
-  const authRoutes = require('./routes/AuthRoutes');
+  const authRoutes = require('./routes/authRoutes');
   const chatRoutes = require('./routes/chatRoutes');
 
   app.use('/api/items', itemRoutes);
